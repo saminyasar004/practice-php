@@ -1,0 +1,73 @@
+/*
+
+* Extra-large : 1140px
+* Large : 960px
+* Medium : 720px
+* Small : 540px
+* Extra-small : >540px
+
+*/
+
+/* for max width: 1140px */
+
+@media screen and (max-width: 1140px) {
+  html {
+    font-size: 100%;
+  }
+  .row {
+    width: 70rem;
+  }
+}
+
+/* for max width 960px */
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/* for max width 720px */
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 65%;
+  }
+  .row {
+    width: 60rem;
+  }
+}
+
+/* for max width 540px */
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* for max width 400px */
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  .row {
+    width: 45rem;
+  }
+}
+
+/* for max width 250px */
+
+@media screen and (max-width: 251px) {
+  html {
+    font-size: 45%;
+  }
+  .row {
+    width: 30rem;
+  }
+  .user-image {
+    width: 15rem;
+    height: 15rem;
+  }
+}

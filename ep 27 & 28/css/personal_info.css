@@ -1,0 +1,173 @@
+/* basic style */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    cursor: default;
+}
+
+.row {
+    width: 100rem;
+    margin: 0 auto;
+}
+
+/* header section start */
+
+.headerSection {
+    width: 100%;
+    height: 6rem;
+    background: #1f2d3b;
+}
+
+.headContainer {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftContainer h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+}
+
+.rightContainer {
+    width: 35%;
+}
+
+.rightContainer form {
+    width: 70%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightContainer form input[type="search"] {
+    width: 70%;
+    padding: 1rem .5rem;
+    display: inline-block;
+    margin: 1% 0;
+    border: .1rem .1rem .1rem .1rem solid #ccc;
+    border-radius: .3rem 0rem 0rem .3rem;
+    outline: none;
+    transition: all .3s;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.btnSearch {
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+    cursor: pointer;
+    padding: 1rem .5rem;
+    border: none;
+    border-radius: 0rem .4rem .4rem 0rem;
+    outline: none;
+    background: #007BFF;
+    text-transform: capitalize;
+    margin: 1% 0;
+}
+
+.rightContainer form input:focus {
+    box-shadow: 0rem 0rem 0.5rem 0rem #1895ff;
+}
+
+.rightContainer ul.visible_list {
+    list-style-type: none;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.visible_list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.visible_list li i {
+    color: rgba(219, 219, 219, 1);
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1rem;
+}
+
+.visible_list li a {
+    color: rgba(219, 219, 219, 1);
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    position: absolute;
+    top: 1rem;
+}
+
+/* header section end */
+
+/* sideBar section start */
+
+.sideBar {
+    width: 16rem;
+    height: 87.5vh;
+    float: left;
+    background: #1e2730;
+    position: relative;
+}
+
+.sideBar_container {
+    width: 100%;
+    height: auto;
+}
+
+.sideBar_container ul {
+    padding-top: 20%;
+    list-style-type: none;
+    display: grid; 
+}
+
+.sideBar_container ul li {
+    margin: 8% 0;
+}
+
+.sideBar_container ul li i {
+    margin: 0 6%;
+}
+
+.sideBar_container ul li a,
+.sideBar_container ul li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* .collapse_icon {
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+} */
+
+/* sideBar section end */

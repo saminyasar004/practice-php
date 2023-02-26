@@ -1,0 +1,118 @@
+/*
+
+* Extra-large : 1140px
+* Large : 960px
+* Medium : 720px
+* Small : 540px
+* Extra-small : >540px
+
+*/
+
+/* for max width: 1140px */
+
+@media screen and (max-width: 1140px) {
+  html {
+    font-size: 100%;
+  }
+  .per-user-list a {
+    justify-content: space-around;
+  }
+  .profile-name {
+    width: 74.6%;
+  }
+  .profile-name span {
+    font-size: 1.4rem;
+  }
+}
+
+/* for max width 960px */
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/* for max width 720px */
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 65%;
+  }
+  .header-container-wrapper {
+    width: 100%;
+  }
+  .home-container {
+    width: 100%;
+  }
+  .user-lists a {
+    padding: 1% 2%;
+  }
+  .per-user-list {
+    margin: 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: var(--transition);
+  }
+  .profile-image {
+    width: 7.72%;
+  }
+  .profile-name {
+    padding: 0 0;
+  }
+}
+
+/* for max width 540px */
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 55%;
+  }
+  .user-image-wrapper img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .profile-image {
+    width: 9.72%;
+  }
+  .profile-name {
+    padding: 0 1%;
+  }
+}
+
+/* for max width 400px */
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+  .profile-image {
+    width: 13.72%;
+  }
+  .profile-name {
+    padding: 0 2%;
+  }
+  .message-send-wrapper {
+    text-align: center;
+  }
+}
+
+/* for max width 250px */
+
+@media screen and (max-width: 251px) {
+  html {
+    font-size: 45%;
+  }
+  .profile-image {
+    width: 21.72%;
+  }
+  .profile-name {
+    padding: 0 3%;
+  }
+  .message-user-text,
+  .message-friend-text {
+    padding: 5% 10%;
+  }
+}

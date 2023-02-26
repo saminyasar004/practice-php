@@ -1,0 +1,4 @@
+mysql database name: unaux_26797354_648
+mysql username: unaux_26797354
+mysql password: 8d2mtyhhnftm
+mysql host name: sql108.unaux.com
